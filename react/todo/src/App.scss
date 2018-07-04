@@ -1,0 +1,25 @@
+@import url('//at.alicdn.com/t/font_731788_6fpdbsoqhup.css');
+
+.app{
+  width: 600px;
+  margin: 0 auto;
+  color: #222;
+
+  .todo{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.color{
+  &-success{
+    color: green;
+  }
+}
+
+input::-webkit-input-placeholder, input::-moz-placeholder{
+  color: #dfdfdf;
+}

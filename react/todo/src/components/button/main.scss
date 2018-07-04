@@ -1,0 +1,15 @@
+$danger:             #cc9a9a;
+.button{
+    padding: 6px;
+    height: 32px;
+    cursor: pointer;
+    &.danger{
+        i{
+            color: $danger;
+
+            &:hover{
+                color: darken($danger, 20%);
+            }
+        }
+    }
+}
