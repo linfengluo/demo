@@ -1,0 +1,14 @@
+/**
+ * Created by linfengluo@gmail.com on 2018/5/17.
+ */
+import Mysql from 'node-mysql-promise'
+
+const mysql = Mysql.createConnection({
+    host: 'localhost',
+    user: 'user',
+    password: 'password',
+    database: 'book',
+    listRows: 20
+});
+
+export default mysql
