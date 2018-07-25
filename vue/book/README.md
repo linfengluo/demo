@@ -1,6 +1,25 @@
 # book
 
-> Nuxt.js project
+> Nuxt.js project （小说阅读）
+
+## 技术栈
+
+* Nuxt
+* vue
+* vue-router
+* vuex
+* mysql
+* puppeteer
+
+## 目的
+
+人穷，小说太贵，想爬下来自己慢慢看看
+
+## 结局
+
+人穷，服务器太烂，不敢直接保存下来，拍撑爆；每次阅读时爬小说，慢！ 
+
+所以结果就是**仅供学习**
 
 ## Build Setup
 
@@ -19,4 +38,3 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).

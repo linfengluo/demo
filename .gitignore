@@ -1,1 +1,3 @@
 .idea/
+vue/book/server/config/mysql.js
+vue/book/server/logs/
